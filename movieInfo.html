@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Info</title>
+    <link rel="stylesheet" a href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Contributors
+          </a>
+      
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Chris Cota
+            </a>
+            <a class="navbar-item">
+              Owen Olson
+            </a>
+            <a class="navbar-item">
+              Roslyn Maxwell
+            </a>
+            
+          </div>
+          <h1 class="title">321 Movies</h1>
+        </div>
+      </nav>
+      <div class="columns">
+        <div class="column is-full"id=movieInfo>
+            <ul>
+                <li> <span id="movieYr"></span></li>
+                <li> <span id="movieRtg"></span></li>
+                <li> <span id="movieCast"></span></li>
+                <li> <span id="movieSummary"></span></li>
+            </ul>
+        </div>
+      </div>
+      <div class="column is-full">
+          <div id="videos"></div>
+      </div>
+      <button class="button is-link is-danger"
+      type="submit" id = "homePage">Search Again</button>
+      </div> 
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="./assets/movieInfo.js"></script>     
+
+</body>
+</html>
